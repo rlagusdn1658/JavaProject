@@ -12,7 +12,7 @@ public class Account {
  
  public void setBalnce(int balace)
  {
-	 if(0 > balance){
+	 if(0 >= balance){
 		 System.out.println("잘못된입력 ");
 	 }else{
 		 this.balance = balance;
@@ -28,7 +28,7 @@ public class Account {
 		// TODO Auto-generated method stub
 		 String s;
 		 Scanner scan = new Scanner(System.in);
-        Account obj = new Account();
+        scan.nextInt();
         obj.setName("Tom");
         obj.setbalance();
         obj.setbalance(100000);
