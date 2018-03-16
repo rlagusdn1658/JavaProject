@@ -19,9 +19,7 @@ public class ConVo {
         			if(s2 >= 'a'&& s2 <='z'){
         				if(s2 >='0' && s2<='9'){
         					
-        					count1++;
-        				else
-        		            count2++;
+        				
         				
         			
         
