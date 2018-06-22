@@ -23,7 +23,7 @@ public FrServer(){
 	 setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	 setTitle("채팅방서버");
 	 setLayout(new BorderLayout());
-	 
+	 setVisible(true);
 	 
 	 JLabel label = new JLabel("This is a server !");
 	 ta = new JTextArea(25, 40);
