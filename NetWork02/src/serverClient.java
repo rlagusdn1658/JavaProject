@@ -1,9 +1,15 @@
+import java.io.IOException;
 
 public class serverClient {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
+	     
+	       
+	    
+	    public static void main(String[] args) throws IOException {
+	    	       
+	    	 
+	    }
 
 	}
 
-}
+
