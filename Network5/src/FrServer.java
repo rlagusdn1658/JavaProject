@@ -14,32 +14,11 @@ import javax.swing.JLabel;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-class FrServer extends JFrame {
-	JTextArea ta;
-	JTextField tf;
 
-	public FrServer() {
-		setSize(600, 400);
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setTitle("채팅방서버");
-		setLayout(new BorderLayout());
-		
-
-		JLabel label = new JLabel("This is a server !");
-		ta = new JTextArea(25, 40);
-		tf = new JTextField(25);
-
-		add(label, BorderLayout.NORTH);
-		add(ta, BorderLayout.CENTER);
-		add(tf, BorderLayout.SOUTH);
-		setVisible(true);
-	}
-}
-
-public class GuimultiChat_TcpServer {
+public class FrServer {
 	HashMap clients;
 
-	GuimultiChat_TcpServer() {
+		FrServer() {
 		clients = new HashMap();
 		Collections.synchronizedMap(clients);
 	}
@@ -47,7 +26,7 @@ public class GuimultiChat_TcpServer {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		FrServer f = new FrServer();
-		new GuimultiChat_TcpServer().start();
+		new FrServer().start();
 
 	}
 
