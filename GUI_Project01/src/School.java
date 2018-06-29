@@ -13,7 +13,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-public class Ex_01 extends JFrame {
+public class School extends JFrame {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
