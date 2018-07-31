@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+<<<<<<< HEAD
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+=======
+	<classpathentry kind="src" path="새 폴더/Ex_02/src"/>
+	<classpathentry kind="src" path="Chap_01/src"/>
+	<classpathentry kind="src" path="Chap_02/src"/>
+	<classpathentry kind="src" path="Chapter_03/src"/>
+	<classpathentry kind="src" path="Chapter_04/src"/>
+	<classpathentry kind="src" path="Chapter_05/src"/>
+	<classpathentry kind="src" path="Chapter_06/src"/>
+	<classpathentry kind="src" path="Chapter_10/src"/>
+	<classpathentry kind="src" path="Chapter12/src"/>
+	<classpathentry kind="src" path="Demo/src"/>
+	<classpathentry kind="src" path="Ex_01/src"/>
+	<classpathentry kind="src" path="Ex_02/src"/>
+	<classpathentry kind="src" path="GUI_Project01/src"/>
+	<classpathentry kind="src" path="GUI_Project02/Ex_01/src"/>
+	<classpathentry kind="src" path="GUI/Chapter_05/src"/>
+	<classpathentry kind="src" path="GUIproject03/src"/>
+	<classpathentry kind="src" path="NetWork/src"/>
+	<classpathentry kind="src" path="NetWork02/src"/>
+	<classpathentry kind="src" path="Network5/src"/>
+	<classpathentry kind="src" path="Swing/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+>>>>>>> branch 'master' of https://github.com/rlagusdn1658/JavaProject
 	<classpathentry kind="output" path="bin"/>
 </classpath>
